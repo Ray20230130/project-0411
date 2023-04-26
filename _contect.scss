@@ -1,0 +1,101 @@
+.contect {
+  background: url(./images/marble_red.jpg) center/cover;
+  width: 100%;
+  min-height: 79vh;
+  padding: 5rem 0 7rem;
+  
+  .contect_wrap {
+    width: 70%;
+    margin: 0rem auto 0rem;
+    padding: 0 2rem;
+    border-radius: 3rem;
+    .title {
+      padding: 1rem;
+      padding-top: 2rem;
+      width: 50vw;
+      margin: 0 auto 2rem;
+      text-align: center;
+
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      h5 {
+        font-size: 1rem;
+      }
+
+      h4 {
+        font-size: 1.2rem;
+      }
+    }
+
+    .reaction {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+
+      .reaction_inner {
+        width: 48%;
+        min-height: 30vh;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 1rem;
+        h3{
+          font-size: 2rem;
+          margin-bottom: 1rem;
+        }
+        h4{
+          font-size: 1.5rem;
+          margin-bottom: 1rem;
+
+        }
+        h5{
+          font-size: 1.2rem;
+          margin-bottom: 1rem;
+
+        }
+        a{
+          text-decoration: none;
+          color: #36a351;
+          font-size: 1.3rem;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:550px) {
+  .contect {
+    padding: 2rem 0 3rem;
+  .contect_wrap {
+    width: 100%;
+    padding: 0 1rem;
+    .title {
+      width: 100%;
+      margin: 0 auto 1rem;
+      padding: .5rem;
+      h1 {
+        font-size: 3rem;
+        margin: 0 auto 1rem;
+      }
+
+      h5 {
+        margin: 0 auto 1rem;
+      }
+    }
+
+    .reaction {
+      display: block;
+      .reaction_inner {
+        width: 100%;
+        h4{
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+}
+  
+}

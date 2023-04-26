@@ -1,0 +1,61 @@
+header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background-color: #d4acac;
+  box-shadow: 2px 2px 7px 2px #757474;
+  padding: .3rem;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    // flex: 5 1 400px; 這段的簡寫是下面三個的意思
+    flex-grow: 5;
+    flex-shrink: 1;
+    flex-basis: 400px;
+    margin-left: 2rem;
+
+    img {
+      width: 4vw;
+      height: 4vw;
+      margin-right: 2rem;
+    }
+
+    h1{
+      font-size: 3rem;
+    }
+  }
+
+  nav {
+    flex: 2 1 400px;
+
+    ul {
+      display: flex;
+      justify-content: space-around;
+
+      li {
+
+        a {
+          color: #696196;
+          text-decoration: none;
+          font-size: 1.3rem;
+          font-weight: 600;
+          padding: .5rem .5rem;
+          border-radius: 1rem;
+          transition: all .2s;
+
+          &:hover{
+            background-color: #8478c9 ;
+            color: #FFDEB4;
+          }
+        }
+      }
+    }
+
+  }
+
+}
